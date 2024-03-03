@@ -22,9 +22,8 @@ printAndPause([200, 800, 200, 800, 200, 800])
 ***********************************************************************/
 
 function printAndPause(nums) {
-  // Your code here 
+ 
 }
-
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 try {
   module.exports = printAndPause;
