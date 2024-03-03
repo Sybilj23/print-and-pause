@@ -22,7 +22,15 @@ printAndPause([200, 800, 200, 800, 200, 800])
 ***********************************************************************/
 
 function printAndPause(nums) {
- 
+  if (nums.length) {
+    let numbers = nums.shift();
+    console.log(numbers)
+    setTimeout(()=>{
+      printAndPause(nums)
+    },numbers )
+  }else{
+    return
+  }
 }
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 try {
